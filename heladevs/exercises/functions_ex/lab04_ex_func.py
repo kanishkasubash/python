@@ -10,37 +10,6 @@ def print_odd_numbers(start: int, stop: int) -> list:
 
 print("Odd numbers from 1 to 30 : ", print_odd_numbers(1, 30))
 
-# Calculate the total, average, maximum and minimum using a looping technique
-def total(numbers: list) -> int:
-    answer = 0
-    for num in numbers:
-        answer += num
-    return answer
-
-def average(numbers: list) -> float:
-    num_total = total(numbers)
-    return float(num_total / len(numbers))
-
-def maximum(numbers: list) -> int:
-    max_val = 0
-    for num in numbers:
-        if num > max_val:
-            max_val = num
-    return max_val
-
-def minimum(numbers: list) -> int:
-    min_val = numbers[0]
-    for num in numbers:
-        if num < min_val:
-            min_val = num
-    return min_val
-
-numbers = [45, 93, 34, 71, 89, 56]
-print("Total : ", total(numbers))
-print("Average : ", average(numbers))
-print("Maximum : ", maximum(numbers))
-print("Minimum : ", minimum(numbers))
-
 # Multiplication Table upto 10 for given number
 def multiply(num: int) -> None:
     for i in range(0, 10):
