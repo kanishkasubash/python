@@ -1,4 +1,4 @@
-###Exercises  - Functions###
+## Exercises  - Functions
 
 1. Move all the logics that you have written in the previous exercise (Lab 04 Exercises ) into proper functions. Make sure you identify parameters, return types appropriately. (https://docs.google.com/document/d/19D1XSZsg-4cHFmn_tduNgaq9boNMmHZHvFOaaZjE2M0/edit#heading=h.5byru71xzbnw)
 
