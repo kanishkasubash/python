@@ -7,3 +7,4 @@ def count_strings_by_character(strings, character) -> int:
         if cap_string.startswith(cap_char):
             count += 1
     return count
+
