@@ -6,6 +6,4 @@
 
 3. Write a function that takes one or more parameters for name and birthday. The function should accept both name and the birthday (in YYYY-MM-DD format) for several, yet unknown number of students. Then return the name of the oldest student.
 
-4. Write a recursive function named power to calculate the power of a given number
-Ie.  2<sup>3</sup> = 8
-power(2, 3) should return the value as 8
+4. Write a recursive function named power to calculate the power of a given number Ie.  2<sup>3</sup> = 8 power(2, 3) should return the value as 8
