@@ -3,6 +3,7 @@
     - Average
     - Minimum
     - Maximum
+    - Power
 """
 def total(numbers: list) -> int:
     """Calculate the sum of the given numbers in the list"""
@@ -32,3 +33,10 @@ def minimum(numbers: list) -> int:
         if number < min_val:
             min_val = number
     return min_val
+
+def power(base, exp):
+    """Recursive function for power"""
+    if exp == 0:
+        return 1
+    else:
+        return base * power(base, exp - 1)
